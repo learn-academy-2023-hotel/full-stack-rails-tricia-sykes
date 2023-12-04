@@ -1,8 +1,8 @@
 # FULL STACK RAILS!
 
-$ rails new full-stack-rails -d postgresql -T
-$ cd full-stack-rails
-$ rails db:create
+- $ rails new full-stack-rails -d postgresql -T
+- $ cd full-stack-rails
+- $ rails db:create
 
 - $ git remote add origin <<https://github.com/learn-academy-2023-hotel/......git>>
 - $ git branch
@@ -57,10 +57,10 @@ $ rails db:create
 - displays form
 - read CRUD
 - Get request
-  controller
-  route
-  view
-  https://guides.rubyonrails.org/form_helpers.html
+- controller
+- route
+- view
+- https://guides.rubyonrails.org/form_helpers.html
 
 ## CREATE
 
