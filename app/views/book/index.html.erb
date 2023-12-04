@@ -1,0 +1,8 @@
+<h1>My Reading Tracker</h1>
+<ul>
+  <%# take array holding all the books, loop over it to access each book %>
+  <% @books.each do |book| %>
+  <%# on each iteration of the loop, we are printing the name of that book to the screen %>
+  <li><%= link_to book.name, book_path(book) %></li>
+  <% end %>
+ </ul>

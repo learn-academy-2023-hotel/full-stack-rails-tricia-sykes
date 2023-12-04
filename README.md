@@ -1,24 +1,53 @@
-# README
+# FULL STACK RAILS!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+$ rails new full-stack-rails -d postgresql -T
+$ cd full-stack-rails
+$ rails db:create
 
-Things you may want to cover:
+- $ git remote add origin <<https://github.com/learn-academy-2023-hotel/......git>>
+- $ git branch
+<!-- no main, so create one -->
+- $ git checkout -b main
+- $ git status
+<!-- normally don't want to use all because it's really easy to make mistakes -->
+- $ git add .
+- $ git status
+- $ git commit -m 'initial commit'
+- $ git push origin main
+- $ bundle add rspec-rails
+- $ rails g rspec:install
 
-* Ruby version
+- $ rails g model Book name:string read:string
+- $ rails db:migrate
+- $ rails g controller Book
+  make sure everything is working
+- $ rails server
+- navigate to localhost:3000
 
-* System dependencies
+## Index
 
-* Configuration
+- a list of all the books
+- GET request
+- Read CRUD action
 
-* Database creation
+- Controller method
+  - holds the active record query (Book.all)
+- Route
+  - defines the url and calls the index method
+- View
+- iterated over array of Books
+- added HTML
+- displays the info!
 
-* Database initialization
+## Show
 
-* How to run the test suite
+- shows details of one book
+- GET request
+- read CRUD action
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- controller action
+<!--  params:  Parameters: {"id"=>"1"} in rails terminal -->
+- route
+- add aliases as well as show route
+- view
+- provided links to each book and then back to the index page
