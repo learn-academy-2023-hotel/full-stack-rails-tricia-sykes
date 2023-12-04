@@ -51,3 +51,32 @@ $ rails db:create
 - add aliases as well as show route
 - view
 - provided links to each book and then back to the index page
+
+## NEW
+
+- displays form
+- read CRUD
+- Get request
+  controller
+  route
+  view
+  https://guides.rubyonrails.org/form_helpers.html
+
+## CREATE
+
+POST request
+adds data to db
+Create CRUD action
+controller
+route
+view
+
+# DESTROY
+
+Delete request
+removes book from db
+Delete CRUD action
+
+controller
+route
+view
