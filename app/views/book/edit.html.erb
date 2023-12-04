@@ -1,0 +1,14 @@
+<h2>Edit Book</h2>
+<%= form_with model: @book, method: :patch do |form| %>
+  <%= form.label :name %>
+  <%= form.text_field :name %>
+  <br><br>
+  <%= form.label :read %>
+  <%= form.text_field :read %>
+  <br><br>
+  <%= form.submit "Edit Book" %>
+<% end %>
+
+<p>
+  <%= link_to 'Back to Home', books_path %>
+</p>

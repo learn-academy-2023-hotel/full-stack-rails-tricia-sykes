@@ -1,6 +1,10 @@
 <h3><%= @book.name %></h3>
 <h4> Have I read this book:  <%= @book.read %> </h4>
-
+<br />
+<%= link_to 'Update Book',
+    edit_book_path(@book) %>
+    <br/><br/>
 <%= button_to 'Remove Book', delete_book_path, method: 'delete' %>
 <br/>
-<h5><%= link_to 'Back to Books', books_path %>
+
+<%= link_to 'Back to Books', books_path %>
